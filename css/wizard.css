@@ -9,33 +9,395 @@
 *{
 	background: #000000;
 }
-.a{
-	top:o;
-	text-align: center;
+a:link{
+	color: white;
 }
 
+a{
+	display:flex;
+	justify-content: center;
+}
 .tab{
-	height: 50px;
-	width: 120px;
-	font-family: "Bebas Neue"
+	font-family: Bebas Neue;
 	color: white;
-	background: purple;
-	top: 0;
-	right:0;
+	background color: #6a5acd;
+	padding:  15px;
+	text-align: right;
+	font-size: 16px;
+	border-radius: 25%;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-.menu{
+li{
 	font-family: Bebas Neue;
-	font size: 15px;
-	color: white;
-	background: #000000;
-	text-align: center;
-
+	color:white;
+	font-size: 20px;
+	font-stretch: extra-expanded;
+	list-style-type: none;
+	display: inline;
+	list-style-position: outside;
+	margin: 15px;
+	width: 500px;
+	height: 50px;
 }
 
 #first-section>h1{
 	font-family: Libre Baskerville;
 	font-size: 36px;
 	color:white;
+	text-align: center;
+	padding: 30px;
+	margin: 10px;
+}
 
+#first-section>p{
+	font-family: Josefin Sans;
+	text-align: center;
+	color: white;
+	font-size: 16px; 
+	max-width: 520px
+	padding:0 30px;
+	display: block;
+	width: 200px
+	height: 64.8px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#first-section>button{
+	font-family: Josefin Sans;
+	background color: #6a5acd;
+	padding: 15px 30px;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 25px;
+	margin:auto;
+	display: block;
+}
+
+#second-section>#one{
+	font-family: Libre Baskerville;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin: 25px;
+	padding: 25px;
+	border: 12px;
+	width: 250px;
+	height: 200px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#second-section>#two{
+	font-family: Libre Baskerville;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin: 25px;
+	padding: 25px;
+	border: 12px;
+	width: 250px;
+	height: 200px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#second-section>#three{
+	font-family: Libre Baskerville;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin: 25px;
+	padding: 25px;
+	border: 12px;
+	width: 250px;
+	height: 200px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#third-section>h3{
+	font-family: Josefin Sans;
+	color:white;
+	font-size: 16px;
+	text-align: left 20px;
+}
+
+#third-section>h1{
+	font-family: Libre Baskerville;
+	color: white;
+	font-size: 36px;
+	text-align: left 20px;
+	width: 600px;
+	height: 84px;
+}
+
+#third-section>p{
+	font-family: Josefin Sans;
+	color: white;
+	font-size: 16px;
+	text-align: left 20px;
+	width: 360px;
+	height: 64px;
+}
+
+#third-section>button{
+	font-family: Josefin Sans;
+	background color: #6a5acd;
+	padding: 15px;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 25px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+/*how to make it all aglien to the right*/
+#fourth-section>h1{
+	font-family: Libre Baskerville;
+	color: white;
+	font-size: 36px;
+	text-align: right 20px;
+	width: 600px;
+	height: 84px;
+}
+
+#fourth-section>p{
+	font-family: Josefin Sans;
+	color: white;
+	font-size: 16px;
+	text-align: right 20px;
+	width: 360px;
+	height: 64px;
+}
+
+#fourth-section>button{
+	font-family: Josefin Sans;
+	background color: #6a5acd;
+	padding: 15px;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 25px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#fifth-section>h1{
+	font-family: Libre Baskerville;
+	color: white;
+	font-size: 36px;
+	text-align: right 20px;
+	width: 600px;
+	height: 84px
+}
+
+#fifth-section>p{
+	font-family: Josefin Sans;
+	color: white;
+	font-size: 16px;
+	text-align: right 20px;
+	width: 360px;
+	height: 64px;
+}
+
+#fifth-section>button{
+	font-family: Josefin Sans;
+	background color: #6a5acd;
+	padding: 15px;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 25px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#sixth-section>h3{
+	font-family: Josefin Sans;
+	color:white;
+	font-size: 16px;
+	text-align: left 20px;
+}
+
+#sixth-section>h1{
+	font-family: Libre Baskerville;
+	color: white;
+	font-size: 36px;
+	text-align: right 20px;
+	width: 600px;
+	height: 84px;
+}
+
+#sixth-section>p{
+	font-family: Josefin Sans;
+	color: white;
+	font-size: 16px;
+	text-align: right 20px;
+	width: 340px;
+	height: 64px;
+}
+
+#sixth-section>button{
+	font-family: Josefin Sans;
+	background color: #6a5acd;
+	padding: 15px;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 25px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#seventh-section>h1{
+	font-family: Libre Baskerville;
+	color: white;
+	font-size: 36px;
+	text-align: right 20px;
+	width: 600px;
+	height: 84px;
+}
+#seventh-section>#one{
+	font-family: Josefin Sans;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin: 25px;
+	margin-right: 20px;
+	padding: 25px;
+	border: 12px;
+	width: 200px;
+	height: 150px;
+	display: inline-block;
+}
+
+#seventh-section>#two{
+	font-family: Josefin Sans;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin: 25px;
+	margin-right: 20px;
+	padding: 25px;
+	border: 12px;
+	width: 200px;
+	height: 150px;
+	display: inline-block;
+}
+
+#seventh-section>#three{
+	font-family: Josefin Sans;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin: 25px;
+	margin-right: 20px;
+	padding: 25px;
+	border: 12px;
+	width: 200px;
+	height: 150px;
+	display: inline-block;
+}
+
+#eighth-section>h1{
+	font-family: Libre Baskerville;
+	color: white;
+	font-size: 36px;
+	text-align: right 20px;
+	width: 600px;
+	height: 84px;
+}
+#eighth-section>#one{
+	font-family: Josefin Sans;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin: 25px;
+	margin-right: 20px;
+	padding: 25px;
+	border: 12px;
+	width: 200px;
+	height: 150px;
+	display: inline-block;
+	border: solid 1px white;
+}
+
+#eighth-section>#two{
+	font-family: Josefin Sans;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin: 25px;
+	margin-right: 20px;
+	padding: 25px;
+	border: 12px;
+	width: 200px;
+	height: 150px;
+	display: inline-block;
+	border: solid 1px white;
+}
+
+#eighth-section>#three{
+	font-family: Josefin Sans;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin: 25px;
+	margin-right: 20px;
+	padding: 25px;
+	border: 12px;
+	width: 200px;
+	height: 150px;
+	display: inline-block;
+	border: solid 1px white;
+}
+
+#eighth-section>#four{
+	font-family: Josefin Sans;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin: 25px;
+	margin-right: 20px;
+	padding: 25px;
+	border: 12px;
+	width: 200px;
+	height: 150px;
+	display: inline-block;
+	Border: solid 1px white;
+}
+/*list horizontally*/
+#footnote{
+	font-family: Bebas Neue;
+	font size: 14px;
+	color: white;
+	list-style-type: none;
+	display: inline-block;
+	width:600px;
+	height: 64px;
+}
+
+button{
+	font-family: Josefin Sans;
+	background color: #6a5acd;
+	padding: 15px;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 30px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	display: inline;
+}
+p{
+	font-family: Josefin Sans;
+	color: white;
+	font-size: 16px;
+	text-align: right 20px;
+	width: 600px;
+	height: 64px;
 }
