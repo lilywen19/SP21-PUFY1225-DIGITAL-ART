@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/*menu Bebas Neue*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*paragraphy Josefin Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Questrial&display=swap');
+/*Title Libre Baskerville*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Libre+Baskerville:wght@700&family=Questrial&display=swap');
+
+.tab{
+	height: 50px;
+	width: 120px;
+	font-family: "Bebas Neue"
+	color: white;
+	background: purple;
+	top: 0;
+	right:0;
+}
