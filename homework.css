@@ -2,34 +2,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Questrial&display=swap');
 
 *{
-	background-color: #ADD8E6;
+	background-color: 	#FFF5EE;
 }
 a:link{
 	color: #000000;
 }
 #title{
 	font-family: josefin sans;
-	font-size: 24px;
+	font-size: 20px;
+	height: 50px;
 }
 
 #week1{
 	font-family: josefin sans;
-	background-color: #CCCCFF;
 	font-size: 16px;
 	width: 400px;
-	height: 300px;
-	display: inline-block;
-	margin:auto;
+	height: 250px;
+	display: inline-table;
 	padding: 10px;
+	border: 2px solid #FF4500;
 }
 
 #week2{
 	font-family: josefin sans;
-	background-color: #9FE2BF;
 	font-size: 16px;
 	width: 400px;
-	height: 300px;
-	display: inline-block;
-	margin:auto;
+	height: 250px;
+	display:inline-table;
 	padding: 10px;
+	border: 2px solid #FF4500;
 }
