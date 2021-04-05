@@ -1,9 +1,10 @@
+//runs once and setups the scene
 function setup(){
 	createCanvas(600, 500);
 
 }
 
-
+//runs FOREVER
 function draw(){
 	background(226, 213, 198);
 	noStroke();
