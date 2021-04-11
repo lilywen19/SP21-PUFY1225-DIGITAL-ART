@@ -34,7 +34,7 @@ function draw(){
 	// blue
 	fill(129, 164, 184);
 	rect(135, 85, 65, 60);
-	
+	//try grid in illustruter to find out the coordinate
 
 
 }
