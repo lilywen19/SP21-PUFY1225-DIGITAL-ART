@@ -3,6 +3,7 @@
 
 *{
 	background-color: 	#FFF5EE;
+
 }
 a:link{
 	color: #000000;
@@ -18,9 +19,10 @@ a:link{
 	font-size: 16px;
 	width: 400px;
 	height: 250px;
-	flex-flow: column wrap;
+	display: inline-table;
 	padding: 10px;
 	border: 2px solid #FF4500;
+	margin-top: 3px;
 }
 
 #week2{
@@ -28,9 +30,11 @@ a:link{
 	font-size: 16px;
 	width: 400px;
 	height: 250px;
-	flex-flow: column wrap;
+	display: inline-table;
 	padding: 10px;
 	border: 2px solid #FF4500;
+	margin-top: 3px;
+
 }
 
 #week3{
@@ -38,7 +42,7 @@ a:link{
 	font-size: 16px;
 	width: 400px;
 	height: 250px;
-	flex-flow: column wrap;
+	display: inline-table;
 	padding: 10px;
 	border: 2px solid #FF4500;
 	margin-top: 3px;
@@ -48,10 +52,11 @@ a:link{
 	font-size: 16px;
 	width: 400px;
 	height: 250px;
-	flex-flow: column wrap;
+	display: inline-table;
 	padding: 10px;
 	border: 2px solid #FF4500;
 	margin-top: 3px;
+
 }
 
 
