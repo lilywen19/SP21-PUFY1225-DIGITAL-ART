@@ -14,14 +14,16 @@ function draw() {
       ellipse(x,y,50,50);
     }
   } 
+
+}
+
+function mousePressed(){
   for(let circleY= 75; circleY <=470; circleY +=75){
   for(let circleX=75; circleX <=470; circleX +=75){
     noStroke();
-    fill(random(200),random(200),random(200));
+    fill(random(200),random(200),random(200),200);
     circle(circleX,circleY,30);
     
     }
    }
-  
- 
 }
