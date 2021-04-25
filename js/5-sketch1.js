@@ -1,4 +1,5 @@
 //improving old "sketch 1", jewelry series
+//enlarge the canvas; change the coordinate
 let d= 10;
 
 function setup(){
