@@ -66,7 +66,8 @@ function draw(){
 function mousePressed(){
        
   for (let i = 0; i < 10; i++) {
-    strokeWeight(random(10));
+ 	noFill();
+ 	strokeWeight(random(10));
     let d = random(100);
     circle(random(width), random(height), d);
     
